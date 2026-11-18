@@ -6,8 +6,7 @@ import SocialMediaButtons from "../social/social-media-icons";
 import { config } from "@/data/config";
 
 function CopyrightYear() {
-  const year = new Date().getFullYear();
-  return <>{year}</>;
+  return <>2026</>;
 }
 
 function Footer() {
